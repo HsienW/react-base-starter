@@ -1,0 +1,40 @@
+{
+  "name": "react-base-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --hot",
+    "dist": "npm run clean && webpack --mode production",
+    "clean": "rimraf dist/*",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-router-dom": "5.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.9.0",
+    "@babel/preset-env": "7.9.5",
+    "@babel/preset-react": "7.9.4",
+    "babel-loader": "8.1.0",
+    "compression-webpack-plugin": "3.1.0",
+    "css-loader": "3.5.2",
+    "eslint": "6.8.0",
+    "eslint-config-airbnb": "18.1.0",
+    "file-loader": "6.0.0",
+    "html-webpack-plugin": "4.2.0",
+    "less-loader": "5.0.0",
+    "node-sass": "4.13.1",
+    "postcss-loader": "3.0.0",
+    "sass-loader": "8.0.2",
+    "style-loader": "1.1.4",
+    "webpack": "4.42.1",
+    "webpack-cli": "3.3.11",
+    "webpack-dev-server": "3.10.3"
+  }
+}

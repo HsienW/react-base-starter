@@ -35,8 +35,7 @@ module.exports = {
             },
             {
                 test: /\.(png|jpg|gif|svg|mp4|wmv)$/,
-                exclude: /node_modules/,
-                use: 'url-loader?limit=8192'
+                loader: 'file-loader'
             },
         ]
     },

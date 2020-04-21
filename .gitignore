@@ -29,7 +29,15 @@
 !.vscode/extensions.json
 
 # IDE - WebStorm
-.idea/*
+# user-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# generated files
+.idea/**/contentModel.xml
 
 # misc
 /.sass-cache

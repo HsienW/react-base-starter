@@ -1,5 +1,6 @@
 # React base starter
-This is a base react library for you.
+- This is a simple react base library for you can do simple operations and tests.
+- After clone it you can also expand it according to your needs.
 
 ## Feature
 - [React-16](https://github.com/facebook/react)
@@ -7,5 +8,7 @@ This is a base react library for you.
 - [Webpack-4](https://github.com/webpack/webpack)
 - [Eslint](vhttps://github.com/eslint/eslint)
 
-## How do I use it?
-The premise of using it is that you must first install node.js & npm or y
+## Note
+- Need to install node.js.
+- Need to install npm.
+- It does not contain redux or UI components and other libraries.

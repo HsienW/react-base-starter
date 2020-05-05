@@ -5,10 +5,11 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --mode development --hot",
+    "start": "webpack-dev-server --mode development --progress --watch --hot",
     "dist": "npm run clean && webpack --mode production",
     "clean": "rimraf dist/*",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --watchAll --verbose",
+    "test-coverage": "jest --watchAll --verbose --coverage"
   },
   "author": "",
   "license": "ISC",
@@ -19,6 +20,7 @@
   },
   "devDependencies": {
     "@babel/core": "7.9.0",
+    "@babel/plugin-transform-runtime": "7.9.6",
     "@babel/preset-env": "7.9.5",
     "@babel/preset-react": "7.9.4",
     "babel-loader": "8.1.0",

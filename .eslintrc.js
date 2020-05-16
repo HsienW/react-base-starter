@@ -16,13 +16,16 @@ module.exports = {
         "sourceType": "module"
     },
     "plugins": [
-        "react"
+        "react",
+        "react-hooks"
     ],
     "parser": "babel-eslint",
     "rules": {
         "no-console": 0,
         "linebreak-style": 0,
         "react/jsx-uses-vars": 1,
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "warn",
         "indent": [
             "error",
             4,

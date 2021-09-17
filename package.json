@@ -6,9 +6,7 @@
   "scripts": {
     "build": "npm run clean && webpack --mode production",
     "start": "webpack-dev-server --mode development --progress --watch --hot",
-    "clean": "rimraf dist/*",
-    "test": "jest --watchAll --verbose",
-    "test-coverage": "jest --watchAll --verbose --coverage"
+    "clean": "rimraf dist/*"
   },
   "author": "",
   "license": "ISC",

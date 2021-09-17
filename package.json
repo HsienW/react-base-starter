@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --mode production",
+    "build": "npm run clean && webpack --mode production",
     "start": "webpack-dev-server --mode development --progress --watch --hot",
-    "dist": "npm run clean && webpack --mode production",
     "clean": "rimraf dist/*",
     "test": "jest --watchAll --verbose",
     "test-coverage": "jest --watchAll --verbose --coverage"

@@ -60,7 +60,6 @@ class Main extends React.Component {
         });
     }
 
-
     addCount() {
         console.log('增加');
         this.setState({

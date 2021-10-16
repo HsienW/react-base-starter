@@ -13,7 +13,6 @@
   "dependencies": {
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "react-intl": "5.20.10",
     "react-router-dom": "5.1.2"
   },
   "devDependencies": {

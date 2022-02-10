@@ -31,7 +31,7 @@
     "file-loader": "6.0.0",
     "html-webpack-plugin": "4.2.0",
     "less-loader": "5.0.0",
-    "node-sass": "4.13.1",
+    "node-sass": "7.0.0",
     "postcss-loader": "3.0.0",
     "sass-loader": "8.0.2",
     "style-loader": "1.1.4",

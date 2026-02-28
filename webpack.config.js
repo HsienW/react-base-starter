@@ -1,5 +1,6 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CompressionPlugin = require('compression-webpack-plugin');
+const sass = require('sass');
 
 module.exports = {
     module: {
@@ -15,7 +16,12 @@ module.exports = {
                     'style-loader',
                     'css-loader',
                     'postcss-loader',
-                    'sass-loader'
+                    {
+                        loader: 'sass-loader',
+                        options: {
+                            implementation: sass,
+                        }
+                    }
                 ]
             },
             {

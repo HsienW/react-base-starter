@@ -1,8 +1,11 @@
 # React base starter
+
+![GitHub License](https://img.shields.io/github/license/assistant-ui/assistant-ui)
+
 - This is a simple react base library for you can do simple operations and tests.
 - After clone it you can also expand it according to your needs.
 
-## Getting start
+## Getting start 🚀🚀
 ```
 git clone https://github.com/HsienW/react-base-starter.git
 cd react-base-starter
